@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://is-a.software/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1 
