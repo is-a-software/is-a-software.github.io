@@ -157,7 +157,7 @@ export default function Home() {
 
               <div className="flex justify-center space-x-6 md:space-x-8">
                 <a
-                  href="http://is-a.software/"
+                  href="https://is-a.software/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/70 hover:text-white transition-colors flex items-center space-x-2"
