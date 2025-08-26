@@ -18,7 +18,23 @@ body {
 }
 
 .app-container {
-  width: 40%;
-  max-width: 40%;
+  width: 100%;
+  max-width: 100%;
   min-height: 100vh;
+  padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .app-container {
+    width: 60%;
+    max-width: 60%;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .app-container {
+    width: 40%;
+    max-width: 40%;
+  }
 }
