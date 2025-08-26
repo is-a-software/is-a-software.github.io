@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+body {
+  background: linear-gradient(135deg, #121212, #2c2c2c);
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  background: linear-gradient(135deg, #121212, #2c2c2c);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.app-container {
+  width: 40%;
+  max-width: 40%;
+  min-height: 100vh;
+}
